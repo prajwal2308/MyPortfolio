@@ -497,7 +497,7 @@ function App() {
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
                       className="mt-6 px-6 py-2 bg-blue-600 rounded-full text-sm font-semibold hover:bg-blue-700 transition-colors duration-300"
-                      onClick={() => window.location.href = "https://drive.google.com/file/d/1RB8DFun4EEP8oVH0fBShCFKGmpYMo9xO/view?usp=sharing"
+                      onClick={() => window.location.href = "https://drive.google.com/file/d/1RB8DFun4EEP8oVH0fBShCFKGmpYMo9xO/view?usp=sharing"}
                     >
                       Learn More
                     </motion.button>
