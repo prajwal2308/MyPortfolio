@@ -289,9 +289,6 @@ function App() {
                 <p className="text-gray-300 leading-relaxed">
                   My passion lies in building scalable backend services, developing intelligent systems with Python and NLP, and mentoring students to grow in web development and data-driven technologies.
                 </p>
-                <p>
-                  I am a graduate student in Computer Science at Rutgers University with 1.5 years of experience as a software developer at CSG. I specialize in back-end development using APIs, Java, and Perl. I am passionate about leveraging advanced academic knowledge and eager to contribute to cutting-edge technology. My journey includes diverse project work, professional experience, and certifications that support my drive in tech innovation.
-                </p>
                 <h2>Education</h2>
                 <ul>
                   <li><strong>Rutgers University</strong> — M.S. in Computer Science (Expected June 2026)</li>
