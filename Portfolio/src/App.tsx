@@ -88,8 +88,8 @@ function App() {
   const navItems = [
     { id: 'home', icon: Brain },
     { id: 'about', icon: GraduationCap },
-    { id: 'experience', icon: FileText },
     { id: 'skills', icon: Code2 },
+    { id: 'experience', icon: FileText },
     { id: 'projects', icon: Terminal },
     { id: 'certificates', icon: Award }
   ];
@@ -361,58 +361,8 @@ function App() {
           </motion.div>
         </section>
 
-        {/* Experience Section */}
-        <section
-          ref={experienceRef}
-          id="experience"
-          className="min-h-screen flex items-center"
-        >
-          <motion.div
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            transition={{ duration: 0.8 }}
-            viewport={{ once: true }}
-            className="grid grid-cols-1 gap-8"
-          >
-            <motion.div
-              initial={{ x: -100, opacity: 0 }}
-              whileInView={{ x: 0, opacity: 1 }}
-              transition={{ delay: 0.2 }}
-              viewport={{ once: true }}
-              className="space-y-8"
-            >
-              <h2 className="text-5xl font-bold bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent">
-                Experience
-              </h2>
-              <div className="space-y-6 text-lg">
-                <h3 className="text-3xl font-semibold">Rutgers University</h3>
-                <p className="text-gray-300">Teaching Assistant and Grader | New Brunswick, NJ | Sept 2024 - Present</p>
-                <ul className="list-disc list-inside text-gray-300">
-                  <li>Teaching HTML, CSS, JavaScript and SQL Programming to 50+ Students, strengthening their web development and coding proficiency, resulting in a 25% increase in average performance on practical assignments.</li>
-                  <li>Planning and providing lab support, office hours, and mentoring for over 100 students, assisting in reducing assignment submission errors by 30% and increasing on-time project completions by 20%.</li>
-                </ul>
-
-                <h3 className="text-3xl font-semibold">CSG International</h3>
-                <p className="text-gray-300">Software Developer Grad and Intern | Bengaluru, India | Feb 2023 - Aug 2024</p>
-                <ul className="list-disc list-inside text-gray-300">
-                  <li>Ideated and developed key features for Customer Connect, helping streamline customer service operations for telecommunication providers.</li>
-                  <li>Collaborated on development of new code packs for features in billingCare, contributing to enhancements of Customer Connect billing solutions.</li>
-                  <li>Conducted comprehensive testing for newly developed features, ensuring quality standards before deployment, reducing post-release defects by 20%.</li>
-                </ul>
-
-                <h3 className="text-3xl font-semibold">Kelesco IT Services PVT LTD</h3>
-                <p className="text-gray-300">Website Developer and Designer Intern | Mumbai, India | May 2022 - Oct 2022</p>
-                <ul className="list-disc list-inside text-gray-300">
-                  <li>Led initial website development efforts over a 5-month internship, implementing key features such as recipe exploration, blog functionality, and e-commerce capabilities.</li>
-                  <li>Architected website infrastructure using WordPress, managing critical components including database setup and hosting configuration.</li>
-                </ul>
-              </div>
-            </motion.div>
-          </motion.div>
-        </section>
-
-        {/* Skills Section */}
-        <section
+         {/* Skills Section */}
+         <section
           ref={skillsRef}
           id="skills"
           className="min-h-screen flex items-center"
@@ -481,6 +431,58 @@ function App() {
           </motion.div>
         </section>
 
+
+        {/* Experience Section */}
+        <section
+          ref={experienceRef}
+          id="experience"
+          className="min-h-screen flex items-center"
+        >
+          <motion.div
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{ duration: 0.8 }}
+            viewport={{ once: true }}
+            className="grid grid-cols-1 gap-8"
+          >
+            <motion.div
+              initial={{ x: -100, opacity: 0 }}
+              whileInView={{ x: 0, opacity: 1 }}
+              transition={{ delay: 0.2 }}
+              viewport={{ once: true }}
+              className="space-y-8"
+            >
+              <h2 className="text-5xl font-bold bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent">
+                Experience
+              </h2>
+              <div className="space-y-6 text-lg">
+                <h3 className="text-3xl font-semibold">Rutgers University</h3>
+                <p className="text-gray-300">Teaching Assistant and Grader | New Brunswick, NJ | Sept 2024 - Present</p>
+                <ul className="list-disc list-inside text-gray-300">
+                  <li>Teaching HTML, CSS, JavaScript and SQL Programming to 50+ Students, strengthening their web development and coding proficiency, resulting in a 25% increase in average performance on practical assignments.</li>
+                  <li>Planning and providing lab support, office hours, and mentoring for over 100 students, assisting in reducing assignment submission errors by 30% and increasing on-time project completions by 20%.</li>
+                </ul>
+
+                <h3 className="text-3xl font-semibold">CSG International</h3>
+                <p className="text-gray-300">Software Developer Grad and Intern | Bengaluru, India | Feb 2023 - Aug 2024</p>
+                <ul className="list-disc list-inside text-gray-300">
+                  <li>Ideated and developed key features for Customer Connect, helping streamline customer service operations for telecommunication providers.</li>
+                  <li>Collaborated on development of new code packs for features in billingCare, contributing to enhancements of Customer Connect billing solutions.</li>
+                  <li>Conducted comprehensive testing for newly developed features, ensuring quality standards before deployment, reducing post-release defects by 20%.</li>
+                </ul>
+
+                <h3 className="text-3xl font-semibold">Kelesco IT Services PVT LTD</h3>
+                <p className="text-gray-300">Website Developer and Designer Intern | Mumbai, India | May 2022 - Oct 2022</p>
+                <ul className="list-disc list-inside text-gray-300">
+                  <li>Led initial website development efforts over a 5-month internship, implementing key features such as recipe exploration, blog functionality, and e-commerce capabilities.</li>
+                  <li>Architected website infrastructure using WordPress, managing critical components including database setup and hosting configuration.</li>
+                </ul>
+              </div>
+            </motion.div>
+          </motion.div>
+        </section>
+
+       
         {/* Projects Section */}
         <section
           ref={projectsRef}
