@@ -386,17 +386,17 @@ function App() {
               {[
                 {
                   title: "Back-End",
-                  skills: ["Python", "JavaScript", "Java", "JDBC", "MySQL", "C/C++ (basics)"],
+                  skills: ["NextJS","Python", "JavaScript", "Java", "JDBC", "MySQL", "C/C++ (basics)"],
                   color: "from-red-500 to-purple-500",
                 },
                 {
                   title: "Front-End",
-                  skills: ["Flask", "TypeScript", "Django", "HTML5", "CSS", "WordPress", "PHP"],
+                  skills: ["React", "Flask", "TypeScript", "Django", "HTML5", "CSS", "WordPress", "PHP"],
                   color: "from-purple-500 to-pink-500",
                 },
                 {
                   title: "Cloud, API and Tools",
-                  skills: ["Azure DevOps", "AWS", "Postman", "Docker", "REST API", "Git"],
+                  skills: ["CloudFlare","Azure DevOps", "AWS", "Postman", "Docker", "REST API", "Git"],
                   color: "from-green-500 to-pink-500",
                 },
               ].map((category, index) => (
@@ -461,6 +461,14 @@ function App() {
                 Experience
               </h2>
               <div className="space-y-6 text-lg">
+                <h3 className="text-3xl font-semibold">Beunec Technologies</h3>
+                <p className="text-gray-300">Beunec Cloud developer Lead | New Brunswick, NJ | May 2025 - Present</p>
+                <ul className="list-disc list-inside text-gray-300">
+                  <li>Developing a multi-featured AI-integrated cloud platform (Beunec Cloud), driving user-centric innovation across file
+management, real-time messaging, and intelligent search using React, NextJS, Cloudflare and Perplexity API.</li>
+                  <li>Designing secure, scalable systems with IAM, smart sharing, and token-optimized AI to drive user trust and engagement.</li>
+                </ul>
+                
                 <h3 className="text-3xl font-semibold">Rutgers University</h3>
                 <p className="text-gray-300">Teaching Assistant and Grader | New Brunswick, NJ | Sept 2024 - Present</p>
                 <ul className="list-disc list-inside text-gray-300">
