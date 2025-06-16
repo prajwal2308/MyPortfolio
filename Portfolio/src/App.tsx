@@ -133,6 +133,13 @@ function App() {
   };
 
   const projects = [
+    
+    {
+      title: "LoRaWAN-style Mesh IoT Simulator Docker, Kubernetes, UDP",
+      description: "Simulated a lightweight, low-power IoT mesh network using containerized UDP nodes with multi-hop routing, failure injection, and time-sliced sleep/wake cycles to mimic real-world LoRaWAN behavior",
+      image: "https://speedmedia.jfrog.com/08612fe1-9391-4cf3-ac1a-6dd49c36b276/jfrog.com/wp-content/uploads/2023/03/how-to-integrate-kubernetes-with-a-docker-registry-lg.jpg",
+      link: "https://github.com/prajwal2308/DIS_Final_Project_LoRAWAN"
+    },
     {
       title: "Static Website Hosting on S3",
       description: "Deployed a secure and publicly accessible static website using AWS S3. Configured ACL, bucket policy, and endpoints.",
@@ -162,12 +169,6 @@ function App() {
       description: "Web app using Python + Selenium to scrape ratings from IMDB, Rotten Tomatoes, and Google. Uses SERP API for accurate retrieval.",
       image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbd7GWLNO5BlIG3RaRRSQrlgOjSMXfzaGu_Q&s",
       link: "https://drive.google.com/file/d/1RB8DFun4EEP8oVH0fBShCFKGmpYMo9xO/view?usp=sharing"
-    },
-    {
-      title: "Software Engineering Simulation – EA (Forage)",
-      description: "Implemented game feature proposals, created OOP class structures, and fixed bugs in a game project simulating real-world SDLC.",
-      image: "https://cdn-connections.villanova.edu/wp-content/uploads/sites/162/2023/09/20210922Forage900x420.jpg",
-      link: "https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/j43dGscQHtJJ57N54/a77WE3de8qrxWferQ_j43dGscQHtJJ57N54_pzpZTTLC67br8Rhqq_1732655190032_completion_certificate.pdf"
     },
   ]
 
